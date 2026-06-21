@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=NeoVolt
+Description=NeoVolt Linux Experience Splash Screen
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/neovolt
+ScriptFile=/usr/share/plymouth/themes/neovolt/neovolt.script

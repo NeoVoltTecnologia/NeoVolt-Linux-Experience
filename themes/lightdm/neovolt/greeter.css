@@ -1,0 +1,27 @@
+/*
+NeoVolt Linux Experience
+Login Theme v1.5
+*/
+
+* {
+  font-family: "Orbitron", "Ubuntu", sans-serif;
+}
+
+#panel_window,
+#login_window {
+  background-color: rgba(0, 0, 0, 0.72);
+  color: #ffffff;
+  border: 1px solid #00ff66;
+}
+
+button {
+  background-color: #00ff66;
+  color: #000000;
+  border-radius: 6px;
+}
+
+entry {
+  background-color: rgba(10, 10, 10, 0.85);
+  color: #ffffff;
+  border: 1px solid #00ff66;
+}
