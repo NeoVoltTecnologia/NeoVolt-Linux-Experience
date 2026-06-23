@@ -1,15 +1,20 @@
 Window.SetBackgroundTopColor(0, 0, 0);
-Window.SetBackgroundBottomColor(0, 0.08, 0.04);
+Window.SetBackgroundBottomColor(0, 0, 0);
 
-message = Image.Text("NeoVolt Tecnologia", 1, 1, 1);
+bg = Image("background.png");
+bg_sprite = Sprite(bg);
+
+scale_x = Window.GetWidth() / bg.GetWidth();
+scale_y = Window.GetHeight() / bg.GetHeight();
+
+bg_sprite.SetScale(scale_x, scale_y);
+bg_sprite.SetX(0);
+bg_sprite.SetY(0);
+
+message = Image.Text("NeoVolt Linux Experience", 0.45, 1, 0.45);
 message_sprite = Sprite(message);
 message_sprite.SetX(Window.GetWidth() / 2 - message.GetWidth() / 2);
-message_sprite.SetY(Window.GetHeight() / 2 - 60);
-
-subtitle = Image.Text("Technology that connects. Solutions that protect.", 0.45, 1, 0.45);
-subtitle_sprite = Sprite(subtitle);
-subtitle_sprite.SetX(Window.GetWidth() / 2 - subtitle.GetWidth() / 2);
-subtitle_sprite.SetY(Window.GetHeight() / 2);
+message_sprite.SetY(Window.GetHeight() - 90);
 
 fun refresh_callback ()
 {
