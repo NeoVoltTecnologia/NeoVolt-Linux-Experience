@@ -1,27 +1,28 @@
 # NeoVolt Linux Experience
 # GRUB Theme
-# Version 0.5
+# Version 1.1
 
-title-text: ""
+title-text: "NeoVolt Boot Manager"
+title-color: "#00FF88"
 
 desktop-image: "background.png"
 desktop-color: "#000000"
 
 + boot_menu {
-    left = 70
-    top = 125
+    left = 80
+    top = 150
 
-    width = 520
-    height = 340
+    width = 650
+    height = 420
 
-    item_font = "DejaVu Sans Bold 18"
+    item_font = "DejaVu Sans Bold 24"
 
-    item_color = "#F2F2F2"
-    selected_item_color = "#00FF66"
+    item_color = "#FFFFFF"
+    selected_item_color = "#00FF88"
 
-    item_height = 54
-    item_spacing = 12
+    item_height = 68
+    item_spacing = 14
 
-    icon_width = 30
-    icon_height = 30
+    icon_width = 40
+    icon_height = 40
 }
