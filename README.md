@@ -1,87 +1,80 @@
 # NeoVolt Linux Experience
 
-A premium Linux Mint experience inspired by NeoVolt Technology.
+NeoVolt Linux Experience é um projeto de personalização e transformação de um notebook Linux Mint em uma estação de trabalho técnica voltada para:
 
----
+* Segurança eletrônica
+* Controle de acesso
+* Redes e infraestrutura
+* Instalações elétricas
+* Automação e suporte técnico
 
-## Features
+## Objetivos
 
-- GRUB Theme
-- Wallpapers
-- Login Theme
-- Splash Screen
-- Icons
-- Fonts
-- Installer
+* Criar uma identidade visual própria NeoVolt
+* Desenvolver uma experiência de boot personalizada
+* Organizar documentação técnica completa
+* Versionar todas as alterações via GitHub
+* Garantir estabilidade e recuperação documentada
 
----
+## Hardware
 
-## Current Version
+* Notebook Vaio
+* SSD SATA 120 GB
+* Linux Mint Cinnamon
+* Windows 10 Pro (Dual Boot)
 
-v0.7 - Documentation
+## Funcionalidades
 
----
+### Boot Experience
 
-## Roadmap
+* NeoVolt GRUB Theme
+* Dual Boot Linux Mint + Windows
+* LUKS Disk Encryption
+* Documentação de recuperação
 
-### v0.1 - Foundation
-- Initial GRUB Theme
+### Desktop Experience
 
-### v0.2 - Refinement
-- Menu improvements
+* Wallpapers NeoVolt
+* Ícones personalizados
+* Planejamento de Login Screen
+* Planejamento de Lock Screen
 
-### v0.3 - Interface
-- Better layout and spacing
+## Releases
 
-### v0.4 - Professional Layout
-- Improved proportions
+### v1.0.1 Recovery
 
-### v0.5 - Icons & Branding
-- Branding preparation
+* Recuperação do sistema após incidente de login
+* Correção do problema `/run/nologin`
+* Recuperação do LightDM
+* Documentação da investigação Plymouth
 
-### v0.6 - Project Structure
-- Folder organization
+### v1.1.0 (Roadmap)
 
-### v0.7 - Documentation
-- README
-- CHANGELOG
-- LICENSE
+* Revisão visual do boot
+* Tela LUKS NeoVolt
+* Plymouth NeoVolt v2
+* Capturas oficiais
+* Documentação expandida
 
-### v0.8 - Fonts
-- Orbitron integration
-
-### v0.9 - Splash Screen
-- Plymouth theme
-
-### v1.0 - Public Release
-- GitHub release
-
----
-
-## Project Structure
+## Estrutura
 
 ```text
-NeoVolt-Linux-Experience
-
-├── docs
-├── fonts
-├── grub-theme
-├── icons
-├── installer
-├── login-screen
-├── screenshots
-├── splash-screen
-└── wallpapers
+docs/
+themes/
+icons/
+wallpapers/
+screenshots/
+grub-theme/
+login-screen/
+splash-screen/
 ```
 
----
+## Licença
 
-## License
+MIT License
 
-MIT
+## Responsável
 
----
+Filipe Evangelista
 
 NeoVolt Tecnologia
-
-Technology that connects. Solutions that protect.
