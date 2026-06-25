@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "=================================="
-echo " NeoVolt Network Discovery v0.3"
+echo " NeoVolt Network Discovery v0.2"
 echo "=================================="
 echo
 
@@ -25,23 +25,8 @@ echo "[+] Tabela de vizinhos:"
 ip neigh
 echo
 
-NETWORK=$(ip route | grep kernel | grep src | head -n1 | awk '{print $1}')
-
-echo
-echo "[+] Rede detectada:"
-echo "$NETWORK"
-echo
-
-if [ -n "$NETWORK" ]; then
-    echo "[+] Escaneando hosts ativos..."
-    nmap -sn "$NETWORK"
-else
-    echo "[!] Não foi possível detectar a rede."
-fi
-
-echo
 echo "[+] Testando conectividade..."
 ping -c 4 8.8.8.8
-
 echo
+
 echo "Diagnóstico concluído."
